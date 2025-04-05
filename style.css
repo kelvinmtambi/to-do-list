@@ -1,0 +1,28 @@
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100v;
+    background: linear-gradient(45deg,#e4245e,#f77168);
+}
+#wrapper{
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 0 2px 20px rgb(0, 0, 0,0.5);
+}
+#wrapper h1{
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+button{
+    background: linear-gradient(45deg,#dc1599,#f99369);
+    border: none;
+    color: #fff;
+    padding: 13px 18ppx;
+    font-size: 18px;
+}
